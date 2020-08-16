@@ -1,0 +1,12 @@
+# virtual env
+cd /home/ubuntu/tor_crolling
+source bin/activate
+
+# tor 실행
+service tor start
+ps -ef | grep tor
+netstat -antp | grep 9050
+
+# tor network IP 확인
+python3 tor_new_ip.py
+python3 tor_python.py

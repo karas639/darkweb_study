@@ -17,7 +17,7 @@ print("Current IP :",y)
 from fake_useragent import UserAgent
 
 headers = { 'User-Agent': UserAgent().random }
-z = requests.get('https://ident.me', proxies=proxies, headers=headers).text
+z = requests.get('https://haystakvxad7wbk5.onion.ws', proxies=proxies, headers=headers).text
 print(z)
 
 
